@@ -6,15 +6,16 @@ public class Task54 {
        return f;
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter number to check even or odd:");
-        int num=sc.nextInt();
-        Task54 task54=new Task54();
-        if(task54.checkEvenOrOdd(num)){
-            System.out.println("Even");
-        }
-        else{
-            System.out.println("Odd");
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter number to check even or odd:");
+            int num=sc.nextInt();
+            Task54 task54=new Task54();
+            if(task54.checkEvenOrOdd(num)){
+                System.out.println("Even");
+            }
+            else{
+                System.out.println("Odd");
+            }
         }
     }
 }
