@@ -1,1 +1,4 @@
 *.class
+/precticeJavaPackage/target/
+/JavaChallenge77/target/
+/LacturesCodes/target/
